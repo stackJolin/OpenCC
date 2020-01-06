@@ -27,7 +27,7 @@ xcodebuild -project SwiftOpenCC/SwiftyOpenCC.xcodeproj -target OpenCCBridge -sdk
 /usr/libexec/Plistbuddy -c "Set :CFBundleShortVersionString 1.0.0" build/Release/OpenCCBridge.framework/Resources/Info.plist
 
 mkdir lib/osx
-cp -r build/Release/OpenCCBridge.framework lib/osx/.
+cp -R build/Release/OpenCCBridge.framework lib/osx/.
 
 ## tvOS
 
